@@ -17,12 +17,12 @@
         </b-collapse>
     </b-navbar>
 
-    <b-jumbotron bg-variant="dark" fluid>
+    <b-jumbotron class="main-jumbotron" bg-variant="dark" text-variant="white" fluid>
         <template slot="header">
             <img class="image-brand-header" src="https://hayevento.com/assets/menu/logo_grande.png" alt="Evento">
         </template>
         <template slot="lead">
-
+            <h2 class="image-brand-lead">HayEvento: Eventos, Conciertos y Festivales en Medellín</h2>
         </template>
     </b-jumbotron>
 </div>
@@ -50,5 +50,11 @@ export default {
     padding-left: 350px;
     max-width: 100%;
     padding-top: 15px;
+}
+.image-brand-lead {
+    padding-left: 200px;
+}
+.main-jumbotron {
+    margin-top: -40px;
 }
 </style>
